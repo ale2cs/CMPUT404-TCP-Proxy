@@ -1,0 +1,20 @@
+Q1:
+To specify a TCP socket in python you use socket.SOCK_STREAM.
+
+Q2:
+The client intializes the connection while the server listens to it. Server waits
+for requests and returns data back to the client depending on the request.
+
+Q3:
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+Setting reuseaddr to 1.
+
+Q4:
+The information we get from incoming connections is the clients ip and port.
+
+Q5:
+recv returns an empty byte string when the server is done sending the HTTP 
+request.
+
+Q6:
+https://github.com/ale2cs/CMPUT_404-TCP-Proxy
